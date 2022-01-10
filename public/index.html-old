@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi sitio</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets\css\estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Mi sitio <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca.html">Acerca</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="jumbotron">
+            <h1 class="display-4">HOLA, MUNDO!!</h1>
+            <p class="lead">Este es un sitio web estático creado con NodeJS</p>
+            <hr class="my-4">
+            <p>Utilizamos Boostrap para mejorar el diseño.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+
+        </div>
+
+    </div>
+    <!-- Copyright -->
+    <footer>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Desarrollado por Joselyn Chérrez &copy; 2022
+        </div>
+    </footer>
+</body>
+
+</html>

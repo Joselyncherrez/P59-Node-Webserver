@@ -1,0 +1,24 @@
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 0;
+    margin-top: -200px;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-bottom: 40px;
+    margin: 0px 10px;
+}
