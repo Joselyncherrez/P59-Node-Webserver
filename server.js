@@ -19,6 +19,11 @@ app.get('/', (req, res) => {
 
     });
 });
+app.get('/acerca', (req, res) => {
+    res.render('acerca', {
+        titulo: "Acerca"
+    });
+});
 
 
 app.listen(3000, () => {
