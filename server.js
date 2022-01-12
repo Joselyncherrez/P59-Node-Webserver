@@ -11,6 +11,7 @@ hbs.registerPartials(__dirname + '/views/parciales');
 //motor de busquedas
 app.set('view engine', 'hbs');
 
+const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     res.render('home', {
@@ -26,6 +27,6 @@ app.get('/acerca', (req, res) => {
 });
 
 
-app.listen(3000, () => {
-    console.log('Esuchando en el puerto 3000');
+app.listen(port, () => {
+    console.log(`Escuchando en el puerto 3000 ${ port }`);
 });
